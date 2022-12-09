@@ -10,6 +10,7 @@
   The following two sections will go over required elements of making a processor addon.
 # REQUIRING PROCESSORS
  **If your mod does not add a new processor machine, this is not required. Please skip to the next section.**
+ 
  For those of you who do plan on adding a new processor machine, you must require Processors by adding this to your ```.metadata``` file:
   
   ```"required" : [ "processors" ]```
@@ -17,6 +18,7 @@
  This makes sure nobody has the mod while not also having Processors.
 # INCLUDING PROCESSORS
  **If your mod adds a new processor machine, you must require the mod instead. Please go to the section above.**
+ 
  For those of you who ddo not plan on adding a new processor machine, and are simply adding, removing or modifying recipes from the recipe tables, you must include Processors by adding this to your ```.metadata``` file:
   
   ```"includes" : [ "processors" ]```
