@@ -16,7 +16,7 @@
   
   ```"required" : [ "processors" ]```
   
- This makes sure nobody has the mod while not also having Processors.
+ This makes sure nobody has the mod active while not also having Processors active.
 # INCLUDING PROCESSORS
  **If your mod adds a new processor machine, you must require the mod instead. Please go to the section above.**
  
