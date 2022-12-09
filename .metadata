@@ -1,0 +1,8 @@
+{
+  "author" : "JamesTheMaker",
+  "description" : "An example addon to the processors mod.",
+  "friendlyName" : "Example Addon",
+  "name" : "exaddon",
+  "version" : "1.0",
+  "requires" : [ "processors" ]
+}

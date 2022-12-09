@@ -1,0 +1,46 @@
+{
+  "objectName" : "magicdirtbox",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Essential",
+  "price" : 1000,
+  "radioMessagesOnPickup" : [ ],
+  "printable" : false,
+  "description" : "A magical box to turn dirt into pixels.",
+  "shortdescription" : "^orange;Magic Dirt Box^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "apexDescription" : "Dirt.",
+  "avianDescription" : "Dirt.",
+  "floranDescription" : "Dirt.",
+  "glitchDescription" : "Dirt.",
+  "humanDescription" : "Dirt.",
+  "hylotlDescription" : "Dirt.",
+
+  "inventoryIcon" : "magicdirtboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "magicdirtbox.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 11,
+  "uiConfig" : "/interface/processors/processor.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/processor.lua" ],
+  "scriptDelta" : 100, // 1 delta = 1 milisecond
+  "recipeList" : "magicdirtbox"
+}

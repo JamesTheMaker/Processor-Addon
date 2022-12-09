@@ -1,0 +1,7 @@
+[
+  { "op" : "replace", "path" : "/1/1/0/0", "value" : 0.00 }, // Setting the probability of "coalore" when sifting "dirtmaterial" to 0%
+
+  { "op" : "add", "path" : "/1/1/-", "value" : [ 1.00, "magicdirtbox" ] }, // Adding a 100% chance of getting "magicdirtbox" when sifting "dirtmaterial"
+
+  { "op" : "add", "path" : "/-", "value" : [ "magicdirtbox", [ [ 1.00, "dirtmaterial" ], [ 0.10, "coalore" ] ] ] } // Adding a new recipe; sifting a "magicdirtbox" has a 100% chance of producing a "dirtmaterial" and a 10% chance of producing a "coalore"
+]
