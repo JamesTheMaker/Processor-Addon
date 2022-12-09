@@ -1,5 +1,6 @@
 # READ ME
- This read me exists for a reason, so please read it all the way through.
+ **This read me exists for a reason, so please read it all the way through.**
+ 
  This Example Addon for the Processors mod provides examples for everything you can do with processors, including:
   - **A new processor machine.**
   - **A new processor recipe config.**
