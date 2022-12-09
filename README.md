@@ -1,11 +1,11 @@
 # READ ME
  This read me exists for a reason, so please read it all the way through.
  This Example Addon for the Processors mod provides examples for everything you can do with processors, including:
-  -- **A new processor machine.**
-  -- **A new processor recipe config.**
-  -- **Modifying a pre-existing output of a pre-existing recipe in a pre-existing config.**
-  -- **Adding a new output to a pre-existing recipe in a pre-existing config.**
-  -- **Adding a new recipe to a pre-existing config.**
+  - **A new processor machine.**
+  - **A new processor recipe config.**
+  - **Modifying a pre-existing output of a pre-existing recipe in a pre-existing config.**
+  - **Adding a new output to a pre-existing recipe in a pre-existing config.**
+  - **Adding a new recipe to a pre-existing config.**
   
   The following two sections will go over required elements of making a processor addon.
 # REQUIRING PROCESSORS
