@@ -12,11 +12,12 @@
 # REQUIRING PROCESSORS
  **If your mod does not add a new processor machine, this is not required. Please skip to the next section.**
  
- For those of you who do plan on adding a new processor machine, you must require Processors by adding this to your ```.metadata``` file:
+ (Don't follow this section. Required is bad.) 
+ ~~For those of you who do plan on adding a new processor machine, you must require Processors by adding this to your ```.metadata``` file:~~
   
-  ```"required" : [ "processors" ]```
+  ```"required" : [ "processors" ]```~~
   
- This makes sure nobody has the mod active while not also having Processors active.
+ ~~This makes sure nobody has the mod active while not also having Processors active.~~
 # INCLUDING PROCESSORS
  **If your mod adds a new processor machine, you must require the mod instead. Please go to the section above.**
  
